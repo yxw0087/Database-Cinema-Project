@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Admin Mode: Database Maintenance</title>
+</head>
+<body>
+<h2>Admin Mode: Database Maintenance</h2>
+<form action="nwc_maintenance.php" method="POST">
+<br>
+<br>
+Action: 
+<select name="Action">
+<option value="Add" selected>Add</option>
+<option value="Delete">Delete</option>
+<option value="Update">Update</option>
+</select>
+<br>
+<br>
+Table: 
+<select name="Table">
+<option value="Complex" selected>Complex</option>
+<option value="Employees">Employees</option>
+<option value="Member">Member</option>
+<option value="Membership">Membership</option>
+<option value="Movie">Movie</option>
+<option value="Reservation">Reservation</option>
+<option value="Seating Chart">Seating Chart</option>
+<option value="Showing">Showing</option>
+<option value="Theater">Theater</option>
+</select>
+<br>
+<br>
+<input type="submit" value="Submit">
+<br><br>
+</form>
+</body>
+</html>
